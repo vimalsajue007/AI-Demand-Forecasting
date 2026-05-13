@@ -44,7 +44,7 @@ Interactive docs: `http://localhost:8000/docs`
 
 ---
 
-## 🎨 Frontend Setup
+##  Frontend Setup
 
 ### 1. Install dependencies
 
@@ -71,7 +71,7 @@ Frontend runs at `http://localhost:3000`
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Module | Description |
 |---|---|
@@ -84,7 +84,7 @@ Frontend runs at `http://localhost:3000`
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 **Backend:** FastAPI · MySQL · SQLAlchemy · JWT · Pandas · Scikit-learn · Prophet · OpenPyXL · ReportLab
 
@@ -92,7 +92,7 @@ Frontend runs at `http://localhost:3000`
 
 ---
 
-## 📋 API Endpoints
+##  API Endpoints
 
 ```
 POST   /api/auth/register          Register new user
@@ -118,7 +118,7 @@ GET    /api/reports/{id}/pdf       Download PDF report
 
 ---
 
-## 📝 Sample CSV Format
+##  Sample CSV Format
 
 Your dataset should have at minimum:
 
@@ -131,7 +131,7 @@ The date and target (sales) columns are selected when creating a forecast.
 
 ---
 
-## 🔒 Security
+##  Security
 
 - Passwords hashed with bcrypt
 - JWT tokens expire after 30 minutes (configurable)
