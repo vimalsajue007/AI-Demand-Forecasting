@@ -10,8 +10,7 @@ A full-stack AI-powered demand forecasting application with a FastAPI backend an
 ```bash
 cd backend
 python3 -m venv venv
-source venv/bin/activate          # Linux / macOS
-venv\Scripts\activate             # Windows
+venv\Scripts\activate             
 ```
 
 ### 2. Install dependencies
@@ -32,14 +31,6 @@ Copy `.env.example` to `.env` and update values:
 
 ```bash
 cp .env.example .env
-```
-
-```env
-DATABASE_URL=mysql+pymysql://YOUR_USER:YOUR_PASSWORD@localhost:3306/demand_forecasting
-SECRET_KEY=your-secret-key-at-least-32-chars-long
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
-UPLOAD_DIR=uploads
 ```
 
 ### 4. Start the server
